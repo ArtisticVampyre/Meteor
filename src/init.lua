@@ -13,7 +13,7 @@ end
 return setmetatable(Meteor, {
 	__index = function(self, eventName)
 		if not rawget(self, eventName) then
-			rawset(self, eventName, Signal.new())
+			rawset(self, eventName, Signal())
 		end
 		return rawget(self, eventName)
 	end,

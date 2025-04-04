@@ -1,6 +1,6 @@
 [package]
 name = "artisticvampyre/meteor"
-version = "0.0.3"
+version = "0.0.4"
 license = "MIT"
 authors = ["ArtisticVampyre"]
 registry = "https://github.com/UpliftGames/wally-index"
